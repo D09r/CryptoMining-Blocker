@@ -1,0 +1,29 @@
+{
+    "update_url": "https://clients2.google.com/service/update2/crx",
+	"manifest_version": 2,
+	"name": "CryptoMining Blocker",
+	"description": "CryptoMining Blocker for Google Chrome blocks cryptomining websites, inline mining script in websites and helps to do safe-browsing.",
+	"version": "0.0.9",
+	"short_name": "CryptoMining Blocker",
+    "author": "D09r",
+    "homepage_url": "https://chrome.google.com/webstore/",
+	"icons": {
+		"16": "img/coin_16.png",
+        "32": "img/coin_32.png",
+        "48": "img/coin_48.png",
+        "64": "img/coin_64.png",
+        "128": "img/coin_128.png"
+	},
+  	"permissions": [
+		"tabs",
+        "notifications",
+        "background",
+        "webRequest",
+        "webRequestBlocking",
+        "<all_urls>"
+  	],
+	"background": {
+        "page": "background.html",
+        "persistent": true
+    }
+}
