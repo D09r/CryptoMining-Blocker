@@ -1,6 +1,4 @@
 # CryptoMining-Blocker
-CryptoMining Blocker for Google Chrome and Firefox browsers blocks cryptomining websites, inline mining script in websites and helps to do safe-browsing.
-
 A free Crypto Mining Blocker extension for Chrome and Firefox to block crypto mining websites, inline mining script in websites and helps to do safe-browsing.
 
 For Chrome: https://chrome.google.com/webstore/detail/cryptomining-blocker/fnmgefajmfpflnopkgeodcbfkgpkbcaa
